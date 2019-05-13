@@ -13,35 +13,35 @@ const HomeHeader = () => (
             <NavBar theme="light" />
         </header>
         <div className={`${Spirit.page.xl} pb5 pt10 pt15-ns pt20-l pb10-ns pb15-l flex flex-column items-center bt bn-ns b--white-10`}>
-            <h1 className="ma0 pa0 f2 f1-ns f-headline-l white header-heading-shadow">Ghost Documentation</h1>
+            <h1 className="ma0 pa0 f2 f1-ns f-headline-l white header-heading-shadow">DriveBeyond Wiki</h1>
             <SearchModal isHome />
 
             <section className="grid-12 gutter-row-20 gutter-36-ns mt10 mt20-ns mt25-l miw-100 miw-auto-ns home-main-box-margin-ns z-999">
                 <HomeHeaderBox
-                    to="/concepts/introduction/"
-                    title="Core Concepts"
+                    to="/konzepte/einleitung/"
+                    title="Grundlagen"
                     icon="blocks"
                     color="purple"
                 >
-                    Understand the fundamentals of Ghost development.
+                    Verändern Sie das Erscheinungsbild und die Inhalte Ihrer Webseite.
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
                     to="/setup/"
-                    title="Setup Guide"
+                    title="Fahrschulverwaltung"
                     icon="rocket"
                     color="blue"
                 >
-                    Setting up a Ghost site on a server or locally.
+                    Verwalten Sie Anmeldungen, Termine und das Lernsystem.
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
                     to="/tutorials/"
-                    title="Tutorials"
+                    title="Anleitungen"
                     icon="typing"
                     color="tutorial-green"
                 >
-                    Browse tutorials for most common setup and development use-cases.
+                    Hier finden Sie konkrete Anleitungen zu unserem System.
                 </HomeHeaderBox>
             </section>
         </div>

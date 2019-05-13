@@ -11,18 +11,18 @@ const Footer = () => (
 
         <section className={`${Spirit.page.xl} grid-12`}>
 
-            <a href="https://ghost.org/pricing" className="db col-12 col-6-ns pr2 pr20-ns pt12 pt7-ns pb7 pl2 pl30-ns relative tdn bn br-ns b--whitegrey dark-h4-hover">
+            <a href="https://drivebeyond.eu" className="db col-12 col-6-ns pr2 pr20-ns pt12 pt7-ns pb7 pl2 pl30-ns relative tdn bn br-ns b--whitegrey dark-h4-hover">
                 <Icon name="cloud-upload" className="absolute top-0 top-10-ns left-2 left-10-ns w10 w13-ns h-auto fill-green" />
-                <h4 className={`${Spirit.h4} darkgrey`}>Ready to upgrade to the best?</h4>
+                <h4 className={`${Spirit.h4} darkgrey`}>Sie sind noch nicht bei DriveBeyond?</h4>
                 <p className={`${Spirit.small} midgrey mt1`}>
-                    Spend less time running your servers and more time running your site. <strong className="blue">Ghost(Pro)</strong> has got you covered.
+                    Testen Sie noch heute kostenfrei unsere Services und erhalten Sie die volle Kontrolle über Ihre Online-Präsenz.
                 </p>
             </a>
 
-            <a href="https://forum.ghost.org/" className="db col-12 col-6-ns pr2 pr20-ns pt18 pt7-ns pb7 pl2 pl30-ns bt b--whitegrey bn-ns relative tdn dark-h4-hover">
+            <a href="mailto:info@drivebeyond.eu" className="db col-12 col-6-ns pr2 pr20-ns pt18 pt7-ns pb7 pl2 pl30-ns bt b--whitegrey bn-ns relative tdn dark-h4-hover">
                 <Icon name="chat-double-bubble" className="absolute top-6 top-10-ns left-2 left-10-ns w10 w13-ns h-auto fill-purple" />
-                <h4 className={`${Spirit.h4} darkgrey`}>Looking for help or advice?</h4>
-                <p className={`${Spirit.small} midgrey mt1`}>Join the <strong>Ghost community</strong>  and meet thousands of other professional users and developers now</p>
+                <h4 className={`${Spirit.h4} darkgrey`}>Sie finden keine Antwort auf Ihre Frage?</h4>
+                <p className={`${Spirit.small} midgrey mt1`}>Schreiben Sie uns eine Mail und wir werden das Thema aufnehmen.</p>
             </a>
 
         </section>
@@ -31,15 +31,12 @@ const Footer = () => (
 
             <div className="bt b--whitegrey flex justify-between items-center pt4">
                 <ul className="flex list pa0 ma0 items-center">
-                    <li className={listItemClass}><a href="https://ghost.org" className="dib pt2 mr6"><Logo /></a></li>
-                    <li className={`${listItemClass} dn db-l`}><Link to="/" className={linkClass}>Docs Home</Link></li>
-                    <li className={`${listItemClass} dn db-l`}><a href="https://forum.ghost.org" className={linkClass}>Forum</a></li>
-                    <li className={`${listItemClass} dn db-l`}><a href="https://status.ghost.org" className={linkClass}>Status</a></li>
-                    <li className={`${listItemClass} dn db-l`}><a href="https://twitter.com/tryghost" className={linkClass}>@TryGhost</a></li>
+                    <li className={listItemClass}><a href="https://drivebeyond.eu" className="dib pt2 mr6"><Logo /></a></li>
+                    <li className={`${listItemClass} dn db-l`}><Link to="/" className={linkClass}>Wiki Startseite</Link></li>
                 </ul>
 
                 <ul className="flex list pa0 ma0 items-center">
-                    <li className={listItemClass}><a href="https://ghost.org" className="link pa2 midgrey hover-blue dib mr0">Ghost.org</a></li>
+                    <li className={listItemClass}><a href="https://drivebeyond.eu" className="link pa2 midgrey hover-blue dib mr0">DriveBeyond</a></li>
                 </ul>
             </div>
 

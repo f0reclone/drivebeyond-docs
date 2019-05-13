@@ -22,7 +22,7 @@ https://newdocs.ghost.org/*      https://docs.ghost.org/:splat                  
 
 
 # CURRENT REDIRECTS
-/concepts                                   /concepts/introduction/                         301!
+/grundlagen                                 /grundlagen/einleitung/                         301!
 /api/handlebars-themes/helpers/blog         /api/handlebars-themes/helpers/site             301!
 /api/handlebars-themes/helpers/lang         /api/handlebars-themes/helpers/site             301!
 /concepts/routing                           /api/handlebars-themes/routing/                 301!

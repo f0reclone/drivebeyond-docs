@@ -36,7 +36,7 @@ const PrevNextSection = ({ sidebar, location, next }) => {
         let next = flatSidebar[currentIndex + 1]
 
         // Set the last page in "Concepts" to lead to the setup guide
-        if (!next && sidebar === `concepts`) {
+        if (!next && sidebar === `grundlagen`) {
             next = { group: `Setup`, link: `/setup/`, title: `Install Ghost` }
         }
 

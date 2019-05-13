@@ -209,9 +209,9 @@ if (SERVICE_WORKER_KILL_SWITCH) {
 
 module.exports = {
     siteMetadata: {
-        title: `Ghost Docs`,
-        siteUrl: process.env.SITE_URL || `https://docs.ghost.org`,
-        description: `Everything you need to know about working with the Ghost professional publishing platform.`,
+        title: `DriveBeyond Wiki`,
+        siteUrl: process.env.SITE_URL || `https://drivebeyond.eu/wiki`,
+        description: `Alles was sie über die DriveBeyond Plattform wissen müssen.`,
     },
     plugins: plugins,
 }

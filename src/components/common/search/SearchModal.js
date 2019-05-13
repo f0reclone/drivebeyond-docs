@@ -43,7 +43,7 @@ class SearchModal extends React.Component {
                     onAfterOpen={this.afterOpenModal}
                     onRequestClose={this.closeModal}
                     shouldFocusAfterRender
-                    contentLabel="Search"
+                    contentLabel="Suche"
                     shouldCloseOnEsc
                     shouldReturnFocusAfterClose={false}
                     className="search-modal br5 mw-m center left-5 right-5 top-5 left-15-ns right-15-ns top-15-ns bg-white absolute mb10 pa5 pt10 pb10 pa10-ns shadow-3"
@@ -53,7 +53,7 @@ class SearchModal extends React.Component {
                     <div className="absolute pa4 top-0 right-0 pointer" onClick={this.closeModal} data-cy="close-modal"><Icon name="close" className="fill-midgrey w3 h-auto" /></div>
                     <div className="relative">
                         <Icon name="search" className="fill-midgrey-l1 w4 h-auto absolute search-modal-input-field left-3" />
-                        <label htmlFor="globalsearch" className="clip">Search</label>
+                        <label htmlFor="globalsearch" className="clip">Suche</label>
                         <Search />
                     </div>
                 </Modal>

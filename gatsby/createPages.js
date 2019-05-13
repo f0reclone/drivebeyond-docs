@@ -11,10 +11,10 @@ module.exports.createRedirects = ({ actions }) => {
     // The /concepts page doesn't exist, we need to redirect to
     // the first post of this section
     createRedirect({
-        fromPath: `/concepts`,
+        fromPath: `/grundlagen`,
         isPermanent: true,
         redirectInBrowser: true,
-        toPath: `/concepts/introduction/`,
+        toPath: `/grundlagen/einleitung/`,
     })
 }
 

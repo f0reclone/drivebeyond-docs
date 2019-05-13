@@ -93,7 +93,7 @@ class Results extends React.Component {
 
         const { value } = this.state
         const inputProps = {
-            placeholder: `Search documentation...`,
+            placeholder: `Dokumentation durchsuchen...`,
             onChange: this.onChange,
             value,
             autoFocus: true,

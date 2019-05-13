@@ -1053,3 +1053,8 @@ to be custom HTML.
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
+header:not(.bg-white) img.navbar-brand {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}

@@ -48,6 +48,7 @@
     "@tryghost/helpers-gatsby": "1.0.5",
     "algolia-html-extractor": "0.0.1",
     "gatsby": "2.3.34",
+    "gatsby-cli": "^2.5.12",
     "gatsby-image": "2.0.41",
     "gatsby-plugin-advanced-sitemap": "1.0.5",
     "gatsby-plugin-algolia": "0.3.0",
