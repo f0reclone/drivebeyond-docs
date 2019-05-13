@@ -213,5 +213,6 @@ module.exports = {
         siteUrl: process.env.SITE_URL || `https://drivebeyond.eu/wiki`,
         description: `Alles was sie über die DriveBeyond Plattform wissen müssen.`,
     },
+    pathPrefix: process.env.SITE_PREFIX || `/wiki`,
     plugins: plugins,
 }
