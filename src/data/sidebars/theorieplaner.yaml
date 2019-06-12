@@ -1,0 +1,9 @@
+- groups:
+  - group: Theorieplaner
+    items:
+      - title: Theorielektionen
+        link: /theorieplaner/theorielektionen
+      - title: Theorieplaner (Dashboard)
+        link: /theorieplaner/theorieplaner
+      - title: Theorieplan (Webseite)
+        link: /theorieplaner/theorieplan

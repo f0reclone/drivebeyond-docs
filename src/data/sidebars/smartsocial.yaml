@@ -1,0 +1,7 @@
+- groups:
+  - group: SmartSocial
+    items:
+      - title: Profile
+        link: /smartsocial/profile/
+      - title: Beiträge
+        link: /smartsocial/beitraege/

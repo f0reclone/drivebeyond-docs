@@ -63,6 +63,7 @@ const plugins = [
                 `gatsby-remark-code-titles`,
                 `gatsby-remark-prismjs`,
                 `gatsby-remark-external-links`,
+                "gatsby-remark-copy-linked-files",
             ],
         },
     },

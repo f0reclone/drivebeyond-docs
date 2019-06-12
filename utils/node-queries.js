@@ -47,14 +47,13 @@ const allGhostPosts = function allGhostPosts(tag, fields = defaultGhostFields) {
 
     return query
 }
-
+//  //sort: {order: ASC, fields: [frontmatter___date]},
 const allMarkdownPosts = function allMarkdownposts(section, fields = defaultMarkdownFields) {
     let regex = `/^(?!/data-schema\/).*(?<!README\/)$/` // eslint-disable-line no-useless-escape
     let sectionFilter = `section: {eq: "${section}"},`
     let query = `
         {
             allMarkdownRemark(
-                sort: {order: ASC, fields: [frontmatter___date]},
                 filter: {fields: {
                     slug: {regex: "${regex}"},
                     ${section ? sectionFilter : ``}

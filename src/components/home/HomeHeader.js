@@ -27,7 +27,7 @@ const HomeHeader = () => (
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
-                    to="/setup/"
+                    to="#"
                     title="Fahrschulverwaltung"
                     icon="rocket"
                     color="blue"
@@ -36,7 +36,7 @@ const HomeHeader = () => (
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
-                    to="/tutorials/"
+                    to="#"
                     title="Anleitungen"
                     icon="typing"
                     color="tutorial-green"

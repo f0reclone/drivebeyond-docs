@@ -41,24 +41,24 @@ const HomePage = ({ data, location }) => {
                         <Link to="/integrations/" className={`${Spirit.h3} link darkgrey hover-midgrey`}>Verknüpfungen</Link>
                         <p className={`${Spirit.p} mt2 midgrey flex flex-column flex-row-ns justify-between items-center-ns`}>
                             Bleiben Sie vernetzt und teilen Sie Inhalte.
-                            <Link to="/integrations/" className="blue link din nb1 mt2 mt0-ns hover-underline-blue">
+                            <Link to="#" className="blue link din nb1 mt2 mt0-ns hover-underline-blue">
                                 <span className="flex items-center fw5">Alle Verknüpfungen ansehen <Icon name="arrow-right" className="w3 h3 ml1 fill-blue" /></span>
                             </Link>
                         </p>
                         <div className="grid-integrations-index mt4 mt6-l f8">
-                            <Box to="/integrations/facebook/" className="flex flex-column justify-between items-center middarkgrey pa2 pt5 pb5 tdn tc" elevation="2" radius="4">
+                            <Box to="/smartsocial/profile/" className="flex flex-column justify-between items-center middarkgrey pa2 pt5 pb5 tdn tc" elevation="2" radius="4">
                                 <img className="w10 mb1" src={fblogo} alt="Facebook" />
                                 Facebook
                             </Box>
-                            <Box to="/integrations/instagram/" className="flex flex-column justify-between items-center middarkgrey pa2 pt5 pb5 tdn tc" elevation="2" radius="4">
+                            <Box to="/smartsocial/profile/" className="flex flex-column justify-between items-center middarkgrey pa2 pt5 pb5 tdn tc" elevation="2" radius="4">
                                 <img className="w10 mb1" src={iglogo} alt="Instagram" />
                                 Instagram
                             </Box>
-                            <Box to="/integrations/googlemybusiness/" className="flex flex-column justify-between items-center middarkgrey pa2 pt5 pb5 tdn tc" elevation="2" radius="4">
+                            <Box to="#" className="flex flex-column justify-between items-center middarkgrey pa2 pt5 pb5 tdn tc" elevation="2" radius="4">
                                 <img className="w10 mb1" src={gmblogo} alt="GoogleMyBusiness" />
                                 GoogleMyBusiness
                             </Box>
-                            <Box to="/integrations/besuchertracking/" className="flex flex-column justify-between items-center middarkgrey pa2 pt5 pb5 tdn tc" elevation="2" radius="4">
+                            <Box to="#" className="flex flex-column justify-between items-center middarkgrey pa2 pt5 pb5 tdn tc" elevation="2" radius="4">
                                 <img className="w10 mb1" src={mlogo} alt="Matomo Besuchertracking" />
                                 Matomo Besuchertracking
                             </Box>

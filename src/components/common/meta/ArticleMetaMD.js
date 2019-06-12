@@ -99,7 +99,7 @@ ArticleMetaMD.propTypes = {
                 ),
                 meta_title: PropTypes.string,
                 meta_description: PropTypes.string,
-                date: PropTypes.string,
+                //date: PropTypes.string,
             }).isRequired,
             excerpt: PropTypes.string.isRequired,
             timeToRead: PropTypes.number,

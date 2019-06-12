@@ -36,7 +36,7 @@ const Footer = () => (
                 </ul>
 
                 <ul className="flex list pa0 ma0 items-center">
-                    <li className={listItemClass}><a href="https://drivebeyond.eu" className="link pa2 midgrey hover-blue dib mr0">DriveBeyond</a></li>
+                    <li className={listItemClass}><a href="https://drivebeyond.eu/impressum" className="link pa2 midgrey hover-blue dib mr0">Impressum</a> | <a href="https://drivebeyond.eu/datenschutz" className="link pa2 midgrey hover-blue dib mr0">Datenschutzerklärung</a></li>
                 </ul>
             </div>
 
