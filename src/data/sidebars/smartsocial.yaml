@@ -2,6 +2,6 @@
   - group: SmartSocial
     items:
       - title: Profile
-        link: /smartsocial/profile/
+        link: /smartsocial/profile
       - title: Beiträge
-        link: /smartsocial/beitraege/
+        link: /smartsocial/beitraege
