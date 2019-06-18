@@ -38,7 +38,7 @@ const NavBar = ({ theme }) => {
                 <div className="dn flex-ns flex-auto items-center overflow-x-auto mr12 mr0-l ml5 ml0-l pb20">
                     <Link to="/grundlagen/einleitung" className={`${themeClasses[theme].menuItem} nowrap f8 pa3 mr1 mr3-l nl3`}>Grundlagen</Link>
                     <Link to="/smartsocial/profile" className={`${themeClasses[theme].menuItem} nowrap f8 pa3 mr1 mr3-l`}>SmartSocial</Link>
-                    <Link to="/theorieplaner/theorielektionen" className={`${themeClasses[theme].menuItem} nowrap f8 pa3 mr1 mr3-l`}>Theorielektionen</Link>
+                    <Link to="/theorieplaner/theorielektionen" className={`${themeClasses[theme].menuItem} nowrap f8 pa3 mr1 mr3-l`}>Theorieplaner</Link>
                 </div>
             </div>
             <div className="relative pl3">

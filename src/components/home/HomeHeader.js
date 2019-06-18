@@ -32,7 +32,7 @@ const HomeHeader = () => (
                     icon="rocket"
                     color="blue"
                 >
-                    Verwalten Sie Anmeldungen, Termine und das Lernsystem.
+                    Verwalten Sie Anmeldungen, Termine und das Lernsystem. (Dieser Teil ist noch in Vorbereitung.)
                 </HomeHeaderBox>
 
                 <HomeHeaderBox
@@ -41,7 +41,7 @@ const HomeHeader = () => (
                     icon="typing"
                     color="tutorial-green"
                 >
-                    Hier finden Sie konkrete Anleitungen zu unserem System.
+                    Hier finden Sie konkrete Anleitungen zu unserem System. (Dieser Teil ist noch in Vorbereitung.)
                 </HomeHeaderBox>
             </section>
         </div>

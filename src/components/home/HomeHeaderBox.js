@@ -14,7 +14,7 @@ const HomeHeaderBox = ({ to, title, color, icon, children }) => (
                 <p className={`${Spirit.small} midgrey`}>{children}</p>
             </div>
             <span className={`${color} dib mt2 link fw5 f7 f5-ns flex items-center`}>
-                Learn more
+                Mehr erfahren
                 <Icon name="arrow-right" className={`w3 h3 ml2 fill-${color}`} />
             </span>
         </div>
