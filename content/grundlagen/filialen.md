@@ -5,7 +5,7 @@ meta_description: "Zeigen Sie Ihre Filialen von der besten Seite indem Sie Bilde
 keywords:
     - filiale
     - filialen
-sidebar: "concepts"
+sidebar: "grundlagen"
 ---
 
 Jede Fahrschule hat mindestens eine Hauptstelle und oft gibt es einige Nebenfilialen in denen Unterricht stattfindet oder es die Möglichkeit zur Anmeldung gibt. Damit Ihre (angehenden) Fahrschüler sofort sehen können, welche Filiale in der Nähe ist und was sie dort zu erwarten haben, haben sie im DriveBeyond Dashboard die Möglichkeit alle Informationen zu hinterlegen.

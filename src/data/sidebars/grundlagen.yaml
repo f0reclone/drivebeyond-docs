@@ -1,0 +1,7 @@
+- groups:
+  - group: Fahrschule
+    items:
+      - title: Unterseiten
+        link: /grundlagen/unterseiten
+      - title: Filialen
+        link: /grundlagen/filialen

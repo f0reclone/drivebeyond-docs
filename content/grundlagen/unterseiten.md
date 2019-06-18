@@ -5,7 +5,7 @@ meta_description: "Erstellen Sie Unterseiten für alle Informationen, die sie we
 keywords:
     - filiale
     - filialen
-sidebar: "concepts"
+sidebar: "grundlagen"
 ---
 
 ## Übersicht
