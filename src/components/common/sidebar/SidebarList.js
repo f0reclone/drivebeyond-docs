@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { withPrefix } from "gatsby"
 import SidebarLink from './SidebarLink'
 
 const SidebarList = ({ items, location }) => {
@@ -14,7 +14,7 @@ const SidebarList = ({ items, location }) => {
                     <SidebarLink
                         link={item.link}
                         title={item.title}
-                        linkClasses={(item.link === location.pathname ? activeLinkClasses : linkClasses)}
+                        linkClasses={(withPrefix(item.link) === location.pathname ? activeLinkClasses : linkClasses)}
                     />
                 </li>
             ))}

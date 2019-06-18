@@ -5,7 +5,7 @@ meta_description: "Wie Sie Webseiten-Inhalte verändern um Ihre Fahrschule perfe
 keywords:
     - filiale
     - filialen
-sidebar: "concepts"
+sidebar: "grundlagen"
 ---
 
 Die folgenden Inhalte sollen Ihnen weiterhelfen, die grundlegenden Informationen zu Ihrer Fahrschule im DriveBeyond System zu veröffentlichen, sodass Sie auf der Webseite korrekt dargestellt werden.

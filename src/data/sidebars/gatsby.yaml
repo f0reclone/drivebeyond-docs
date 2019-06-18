@@ -1,4 +1,13 @@
 - title: Gatsby
   items:
-    - title: Overview
-      link: /api/gatsby/
+    - title: Profile
+      link: /smartsocial/profile2
+    - title: Beiträge
+      link: /smartsocial/beitraege2
+- title: Gatsby2
+  items:
+    - title: Profile
+      link: /smartsocial/profile
+    - title: Beiträge
+      link: /smartsocial/beitraege
+

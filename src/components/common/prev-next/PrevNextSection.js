@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import _ from 'lodash'
+import { withPrefix } from "gatsby"
 
 import { getSidebarFile } from '../sidebar'
 import PrevNext from './PrevNext'
@@ -31,7 +32,7 @@ const PrevNextSection = ({ sidebar, location, next }) => {
             })
         })
 
-        const currentIndex = _.findIndex(flatSidebar, item => item.link === location.pathname)
+        const currentIndex = _.findIndex(flatSidebar, item => withPrefix(item.link) === location.pathname)
         const prev = flatSidebar[currentIndex - 1]
         let next = flatSidebar[currentIndex + 1]
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { withPrefix } from "gatsby"
 
 import SidebarLink from './SidebarLink'
 import SidebarList from './SidebarList'
@@ -16,7 +17,7 @@ const SidebarNav = ({ sidebar, location }) => {
         <nav className="mt5 mb5 mt10-ns mb0-ns relative" data-cy="sidebar">
             {sidebarfile.groups.map((group, i) => (
                 <div key={i} className="mt1">
-                    {group.items.some(item => (item.link === location.pathname)) ?
+                    {group.items.some(item => (withPrefix(item.link) === location.pathname)) ?
                         // Render a sidebar list with children, if any of the nested elements
                         // matches our current location, so the group needs to
                         <>
