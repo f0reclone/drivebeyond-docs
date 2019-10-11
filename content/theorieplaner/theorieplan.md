@@ -9,7 +9,7 @@ sidebar: "theorieplaner"
 ---
 ##Voraussetzungen
 
-Stellen Sie sicher, dass Sie eine Unterseite mit der Vorlage Theorieplaner angelegt und veröffentlicht haben. Erst dann ist der Theorieplan auf Ihrer Webseite erreichbar.
+Stellen Sie sicher, dass Sie eine Unterseite mit der Vorlage Theorieplaner angelegt und veröffentlicht haben. Erst dann ist der Theorieplan auf Ihrer Webseite erreichbar. Danach können Sie den Theorieplan über das Menü verlinken.
 
 ##Nächste Theoriestunden
 
